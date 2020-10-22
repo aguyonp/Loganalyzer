@@ -41,6 +41,8 @@ RUN chown -Rf apache:apache /htdocs
 RUN chmod +x /opt/utils/start.sh
 RUN /opt/utils/start.sh
 
+VOLUME [ "/htdocs" ]
+
 HEALTHCHECK CMD wget -q --no-cache --spider localhost/index.php
 
 ENTRYPOINT ["httpd","-D","FOREGROUND"]
