@@ -1,7 +1,8 @@
-﻿# Loganalyzer
+# Loganalyzer
 ![enter image description here](https://needforbits.files.wordpress.com/2016/12/loganalyzer-logo.png)
-Docker image of RSYSLOG Loganalyzer
 
+Docker image of RSYSLOG Loganalyzer Version 4.1.11 (stable), 2020-07-09
+#Alpine #PHP7 #Apache
 
 ## Simple Setup
 Easy:
